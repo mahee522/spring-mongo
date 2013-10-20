@@ -18,8 +18,8 @@ public class ProductDao {
 		return productRepository.findByName(name);
 	}
 
-	public Product saveProduct(Product message) {
-		return productRepository.save(message);
+	public Product saveProduct(Product product) {
+		return productRepository.save(product);
 	}
 	
 	

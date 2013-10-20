@@ -3,6 +3,8 @@ package com.tsp.dao.unit;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertEquals;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import org.junit.Test;
@@ -24,6 +26,12 @@ public class ProductDaoTest extends BaseUnitTester {
 		product = productDao.saveProduct(product);
 		
 		assertNotNull(product.getId());
+		
+		String[] arr = new String[2];
+		
+		List<String> list = new ArrayList<String>();
+		Collections.addAll(list, arr);
+		
 	}
 	
 	@Test
