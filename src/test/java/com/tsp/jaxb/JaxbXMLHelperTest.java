@@ -1,12 +1,5 @@
 package com.tsp.jaxb;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertEquals;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.junit.Test;
@@ -17,8 +10,6 @@ import com.tsp.dao.unit.BaseUnitTester;
 import com.tsp.jaxb.pojo.Address;
 import com.tsp.jaxb.pojo.Addresses;
 import com.tsp.jaxb.pojo.User;
-import com.tsp.model.Inventory;
-import com.tsp.model.Product;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 public class JaxbXMLHelperTest extends BaseUnitTester {
