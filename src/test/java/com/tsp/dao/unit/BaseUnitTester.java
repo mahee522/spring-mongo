@@ -10,6 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.tsp.dao.InventoryDao;
 import com.tsp.dao.ProductDao;
+import com.tsp.dao.UserDao;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ActiveProfiles({ "web" })
@@ -23,6 +24,9 @@ public abstract class BaseUnitTester {
 
 	@Autowired
 	protected InventoryDao inventoryDao;
+	
+	@Autowired
+	protected UserDao userDao;
 
 	@Before
 	public void setUp() {

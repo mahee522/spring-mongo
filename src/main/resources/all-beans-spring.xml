@@ -15,6 +15,7 @@
 		
 	<bean id="productDao" class="com.tsp.dao.ProductDao"/>
 	<bean id="inventoryDao" class="com.tsp.dao.InventoryDao"/>
+	<bean id="userDao" class="com.tsp.dao.UserDao"/>
 	
   
 </beans>
